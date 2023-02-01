@@ -40,7 +40,7 @@
                             Get Involved
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="getInvolved">
-                            <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Donate Blood</a></li>
+                            <li><a class="dropdown-item" href="/workspace/blood.com/blood-requests">Donate Blood</a></li>
                             <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Blood Donation Campaigns</a></li>
                             <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Work with Us</a></li>
                         </ul>
@@ -99,26 +99,24 @@
 It's recommended to use the first and third options as it makes it easy to maintain and update the code and also to keep your custom css separate from bootstrap css.
     </p>
     
-    <!-- FOOTER -->
-    <div class="container-fluid" id="footer">
-        <div class="row p-4  text-center text-white">
+     <!-- FOOTER -->
+      <div class="container-fluid" id="footer">
+         <div class="row p-4  text-center text-white">
             <div class="mt-3">
-                Follow us on:<br>
-                <a role="button" href="https://www.facebook.com/profile.php?id=100089844251738&mibextid=ZbWKwL"><i class="fab fa-2x fa-facebook"></i></a> &nbsp;&nbsp;
-                <a role="button" href="https:/www.twitter.com"><i class="fab fa-2x fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-                <a role="button" href="https:/www.twitter.com"><i class="fab fa-2x fa-instagram"></i></a>
+               Follow us on:<br>
+               <a role="button" href="https://www.facebook.com/profile.php?id=100089844251738&mibextid=ZbWKwL"><i class="fab fa-2x fa-facebook"></i></a> &nbsp;&nbsp;
+               <a role="button" href="https:/www.twitter.com"><i class="fab fa-2x fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+               <a role="button" href="https:/www.twitter.com"><i class="fab fa-2x fa-instagram"></i></a>
             </div>
             <div class="mt-3">
-                Contact Us: blood@gmail.com
+               Contact Us: <a href="mailto:blood@gmail.com" style="text-decoration:none; color:white;">blood@gmail.com</a>
             </div>
             <div class="mt-3">
-                &copy;2023 - blood.com. All rights reserved.
+               &copy;2023 - blood.com. All rights reserved.
             </div>
-        </div>
-    </div>
-
-    <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="static/fontawesome/js/all.min.js"></script>
-</body>
-
+         </div>
+      </div>
+      <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="static/fontawesome/js/all.min.js"></script>
+   </body>
 </html>

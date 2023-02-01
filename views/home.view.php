@@ -53,7 +53,7 @@
                      Get Involved
                      </a>
                      <ul class="dropdown-menu" aria-labelledby="getInvolved">
-                        <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Donate Blood</a></li>
+                        <li><a class="dropdown-item" href="/workspace/blood.com/blood-requests">Donate Blood</a></li>
                         <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Blood Donation Campaigns</a></li>
                         <li><a class="dropdown-item" href="/workspace/blood.com/getInvolved">Work with Us</a></li>
                      </ul>
@@ -104,13 +104,19 @@
          </div>
       </nav>
       <!-- Main -->
+   <main class="bg-danger">
+      <div class="container-fluid bg-danger mt-3 mb-3">
+            <div class= "d-flex h-100">
+               <img src="assets/images/blood-donate.jpg" class="img-fluid mx-auto" alt="bloodImage" style="width: 100vw; height: 100vh;">
+            </div>
+      </div>
       <div class="container-fluid bg-danger">
-         <div class="container bg-dark">
+         
             <div class="row">
                <div class="col-md-8 col-sm-12">
                
                <!-- Blood Requests Tittle -->
-                  <h3 class="text-center text-danger bg-light">Blood Requests</h3>
+                  <h3 class="text-center text-danger bg-dark">Blood Requests</h3>
 
                   <!-- First row of Blood requests -->
                   <div class="row mb-2">
@@ -120,7 +126,7 @@
                            <div class="card-header bg-danger text-white">Emergency Blood Needed</div>
                            <div class="card-body row">
                               <div class="col-md-4 d-flex align-items-center" style="border-right: 1px solid;">
-                                 <img src="assets/images/image.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                                 <img src="assets/images/blood-request-form.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
                               </div>
                               <div class="col-md-8">
                                  <label>Full Name :<span> Samir Giri </span></label> <br>
@@ -133,7 +139,7 @@
                            </div>
                            <div class="card-footer  justify-content-between">
                               <button class="btn btn-primary">Chat</button>
-                              <button class="btn btn-primary comment-btn">Comment</button>
+                              <button class="btn btn-success comment-btn">Comment</button>
                            </div>
                            <div class="comment-section" style="display:none;">
                               <textarea class="form-control mt-2" placeholder="Type your comment here......" rows="1"></textarea>
@@ -147,7 +153,7 @@
                            <div class="card-header bg-danger text-white">Emergency Blood Needed</div>
                            <div class="card-body row">
                               <div class="col-md-4 d-flex align-items-center" style="border-right: 1px solid;">
-                                 <img src="assets/images/image.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                                 <img src="assets/images/blood-request-form.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
                               </div>
                               <div class="col-md-8">
                                  <label>Full Name :<span> Samir Giri </span></label> <br>
@@ -160,7 +166,7 @@
                            </div>
                            <div class="card-footer  justify-content-between">
                               <button class="btn btn-primary">Chat</button>
-                              <button class="btn btn-primary comment-btn">Comment</button>
+                              <button class="btn btn-success comment-btn">Comment</button>
                            </div>
                            <div class="comment-section" style="display:none;">
                               <textarea class="form-control mt-2" placeholder="Type your Comment here....." rows="1"></textarea>
@@ -178,7 +184,7 @@
                            <div class="card-header bg-danger text-white">Emergency Blood Needed</div>
                            <div class="card-body row">
                               <div class="col-md-4 d-flex align-items-center" style="border-right: 1px solid;">
-                                 <img src="assets/images/image.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                                 <img src="assets/images/blood-request-form.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
                               </div>
                               <div class="col-md-8">
                                  <label>Full Name :<span> Samir Giri </span></label> <br>
@@ -191,7 +197,7 @@
                            </div>
                            <div class="card-footer  justify-content-between">
                               <button class="btn btn-primary">Chat</button>
-                              <button class="btn btn-primary comment-btn">Comment</button>
+                              <button class="btn btn-success comment-btn">Comment</button>
                            </div>
                            <div class="comment-section" style="display:none;">
                               <textarea class="form-control mt-2" placeholder="Type your comment here......" rows="1"></textarea>
@@ -205,7 +211,7 @@
                            <div class="card-header bg-danger text-white">Emergency Blood Needed</div>
                            <div class="card-body row">
                               <div class="col-md-4 d-flex align-items-center" style="border-right: 1px solid;">
-                                 <img src="assets/images/image.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                                 <img src="assets/images/blood-request-form.jpg" class="card-img" alt="Image" style="width: 100%; height: 100%;">
                               </div>
                               <div class="col-md-8">
                                  <label>Full Name :<span> Samir Giri </span></label> <br>
@@ -218,7 +224,7 @@
                            </div>
                            <div class="card-footer  justify-content-between">
                               <button class="btn btn-primary">Chat</button>
-                              <button class="btn btn-primary comment-btn">Comment</button>
+                              <button class="btn btn-success comment-btn">Comment</button>
                            </div>
                            <div class="comment-section" style="display:none;">
                               <textarea class="form-control mt-2" placeholder="Type your Comment here....." rows="1"></textarea>
@@ -227,13 +233,99 @@
                         </div>
                      </div>
                   </div>
-
-
+                  <a role="button" class="form-control btn btn-dark text-center mb-3" href="/workspace/blood.com/blood-requests"> See More Blood Requests </a>
                </div>
-               <!-- Empty column here -->
+
+
+
+
+
+
+            
+               <!-- Hospital and blood bank section -->
+               <div class="col-md-4 col-sm-12" style="border: 1px solid white;">
+               
+                  <div class="row bg-success" style="border-bottom: 2px solid green;">
+                     <div class="col-12 col-md-12 col-sm-12">
+                     <h3 class="text-center text-danger bg-dark">Hospitals</h3>
+                        <!-- first Hospital -->
+                        <div class="card text-center bg-light" style="border: 1px solid;">
+                           <div class="card-header bg-info text-white">BPKIHS (Ghopa Camp)</div>
+                           <div class="card-body row"> 
+                              <div class="col-md-2 d-flex align-items-center" style="border-right: 1px solid;">
+                                 <img src="assets/images/hospital.png" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                              </div>
+                                 <div class="col-md-10">
+                                    <label>Location :<span> Dharan </span></label>   <br>                    
+                                    <label>Contact Number :<span> 9800966705</span></label> <br>                          
+                                 </div>                         
+                           </div>
+                        </div>
+                        <!-- Second Hospital -->
+                         <div class="card text-center bg-light mt-1 mb-1" style="border: 1px solid;">
+                           <div class="card-header bg-info text-white">BPKIHS (Ghopa Camp)</div>
+                           <div class="card-body row"> 
+                              <div class="col-md-2 d-flex align-items-center" style="border-right: 1px solid;">
+                                 <img src="assets/images/hospital.png" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                              </div>
+                                 <div class="col-md-10">
+                                    <label>Location :<span> Dharan </span></label>   <br>                    
+                                    <label>Contact Number :<span> 9800966705</span></label> <br>                          
+                                 </div>                         
+                           </div>
+                        </div>
+                           <a role="button" class="form-control btn btn-dark text-center mt-1 mb-3" href="/workspace/blood.com/hospitals"> Find More Hospitals </a>
+                  </div>
+               </div>
+
+                 <!--  blood bank section -->
+               
+               
+                  <div class="row bg-secondary mt-2">
+                     <div class="col-12 col-md-12 col-sm-12">
+                     <h3 class="text-center text-danger bg-dark">Blood Banks</h3>
+                        <!-- first bloodbank -->
+                        <div class="card text-center bg-light" style="border: 1px solid;">
+                           <div class="card-header bg-info text-white">BPKIHS (Ghopa Camp)</div>
+                           <div class="card-body row"> 
+                              <div class="col-md-2 d-flex align-items-center" style="border-right: 1px solid;">
+                                 <img src="assets/images/bloodbank.png" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                              </div>
+                                 <div class="col-md-10">
+                                    <label>Location :<span> Dharan </span></label>   <br>                    
+                                    <label>Contact Number :<span> 9800966705</span></label> <br>                          
+                                 </div>                         
+                           </div>
+                        </div>
+                        <!-- Second bloodbank -->
+                         <div class="card text-center bg-light mt-1 mb-1" style="border: 1px solid;">
+                           <div class="card-header bg-info text-white">BPKIHS (Ghopa Camp)</div>
+                           <div class="card-body row"> 
+                              <div class="col-md-2 d-flex align-items-center" style="border-right: 1px solid;">
+                                 <img src="assets/images/bloodbank.png" class="card-img" alt="Image" style="width: 100%; height: 100%;">
+                              </div>
+                                 <div class="col-md-10">
+                                    <label>Location :<span> Dharan </span></label>   <br>                    
+                                    <label>Contact Number :<span> 9800966705</span></label> <br>                          
+                                 </div>                         
+                           </div>
+                        </div>
+                           <a role="button" class="form-control btn btn-dark text-center mt-1 mb-3" href="/workspace/blood.com/blood-banks"> Find More Blood Banks </a>
+                  </div>
+               </div>
+
+
+               
             </div>
          </div>
       </div>
+      <div class="container-fluid bg-danger mt-3 mb-3">
+            <div class= "d-flex h-100">
+               <img src="assets/images/bg-image.jpg" class="img-fluid mx-auto" alt="bloodImage" style="width: 100vw; height: 100vh;">
+            </div>
+      </div>
+
+   </main>
       <!-- FOOTER -->
       <div class="container-fluid" id="footer">
          <div class="row p-4  text-center text-white">
@@ -244,7 +336,7 @@
                <a role="button" href="https:/www.twitter.com"><i class="fab fa-2x fa-instagram"></i></a>
             </div>
             <div class="mt-3">
-               Contact Us: blood@gmail.com
+               Contact Us: <a href="mailto:blood@gmail.com" style="text-decoration:none; color:white;">blood@gmail.com</a>
             </div>
             <div class="mt-3">
                &copy;2023 - blood.com. All rights reserved.

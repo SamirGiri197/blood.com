@@ -50,7 +50,6 @@ label,span{
     display: inline-block;
 }
 
-
 @media only screen and (max-width: 600px) {
     .member-photo {
         background-repeat: no-repeat;
