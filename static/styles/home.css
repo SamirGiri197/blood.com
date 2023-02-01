@@ -1,0 +1,82 @@
+*{
+    font-family:"Lucida Console","Courier New", monospace;
+}
+#request-blood{
+   border-style: solid;
+   background-color: rgb(146, 27, 27);
+   border-radius: 25px;
+   border-width: thin;
+   color: white;
+}
+#donate-blood{
+    border-style: solid;
+    background-color:white;
+    border-radius: 25px;
+    border-width: thin;
+    color: rgb(146, 27, 27) !important;
+ }
+#request-blood:hover{
+    background-color: white;
+    color: rgb(146, 27, 27) !important;
+}
+#donate-blood:hover{
+    background-color: rgb(146, 27, 27);
+    color: white!important;
+}
+#navbar{
+    background-color: rgb(146, 27, 27);
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: wheat !important;;
+}
+#logo{
+    padding: 0px;
+    background-color: white;
+}
+#footer{
+    background-color: rgb(146, 27, 27);
+}
+#login-btn{
+    background-color: aliceblue !important;
+}
+#login-btn:hover{
+    background-color: black !important;
+    color: wheat;
+}
+label,span{
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .member-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 160px;
+        width: 160px;
+        border: 2px black solid;
+        border-radius: 80px;
+    }
+    .member-name{
+        width: 160px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .member-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        border: 2px black solid;
+        border-radius: 100px;
+    }
+    .member-name{
+        width: 200px;
+        text-align: center;
+    }
+}
