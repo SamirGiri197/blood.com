@@ -1,46 +1,60 @@
-*{
-    font-family:"Lucida Console","Courier New", monospace;
+.logo{
+    padding-left: 50px;
 }
+.slogan-word {
+    display: block;
+    line-height: 1;
+    font-size: 25px;
+    color: #bf1b2c;
+    font-weight: bold;
+}
+
 #request-blood{
    border-style: solid;
-   background-color: rgb(146, 27, 27);
-   border-radius: 25px;
+   background-color:#880808;
    border-width: thin;
-   color: white;
+   color: white !important;
+   border-color:rgb(146, 27, 27) !important ;
 }
 #donate-blood{
     border-style: solid;
     background-color:white;
-    border-radius: 25px;
     border-width: thin;
     color: rgb(146, 27, 27) !important;
+    margin-left: 5px;
+    margin-right: 5px;
  }
 #request-blood:hover{
     background-color: white;
     color: rgb(146, 27, 27) !important;
 }
 #donate-blood:hover{
-    background-color: rgb(146, 27, 27);
+    background-color: #880808;
     color: white!important;
 }
+
 #navbar{
-    background-color: rgb(146, 27, 27);
+    background-color:#F7FCF7;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .nav-link{
-    color: white !important;
+    color: #181818 !important;
+    font-size: 0.95rem !important;
+    font-weight: bold !important;
 }
+
 .nav-link:hover{
-    color: wheat !important;;
+    color: rgb(146, 27, 27) !important;;
 }
-#logo{
-    padding: 0px;
-    background-color: white;
-}
-#footer{
-    background-color: rgb(146, 27, 27);
-}
+
 #login-btn{
-    background-color: aliceblue !important;
+    background-color: #181818;
+    color: #F7FCF7;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 10px;  
 }
 #login-btn:hover{
     background-color: black !important;
@@ -48,6 +62,222 @@
 }
 label,span{
     display: inline-block;
+}
+.abt-section{
+    background-color: #F7FCF7;
+}
+.header{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+.header .h1{
+    border-left: 10px solid red;
+
+}
+.heading-style{
+    border-left: 15px solid red;
+    margin: auto;
+    padding: 3px;
+}
+.events-section{
+    background-color: #F7FCF7;
+}
+.event {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.event-details {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    z-index: 1;
+}
+.event:hover .img-fluid {
+    filter: brightness(70%);
+}
+
+.event:hover .event-details {
+    display: block;
+}
+
+.event-details h3,
+.event-details p {
+    margin-top: 0;
+}
+
+.event-details p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* about section */
+.about-section {
+    background-color:#F7FCF7 ;
+    padding-top: 20px;
+    position: relative;
+}
+
+.about_detail-container {
+    position: relative;
+}
+
+.about_detail-box {
+    padding: 25px 50px;
+    padding-right: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(250%);
+}
+.hidden {
+    display: none;
+}
+.bg-img-abt-section{
+    background-image: url("assets/images/info-sec-bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    background-size: cover;
+    height: 120%;
+    padding: 5px;
+}
+
+/* Info Section */
+.info_section {
+    padding-top: 50px;
+    padding-bottom: 1px;
+    color: #F7FCF7;
+    font-family: "Poppins", sans-serif;
+}
+
+.info_section h5 {
+
+    font-size: 22px;
+
+}
+
+.info_section p{
+    color: #F7FCF7;
+}
+
+.info_section a,
+.info_section a:hover {
+    color: #fff;
+}
+
+.info_logo .logo-box {
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+.info_logo .logo-box img {
+    width: 65px;
+}
+
+.info_logo .logo-box span {
+    color: #fff;
+}
+
+.info_section .col-md-4 {
+    padding: 0 30px;
+}
+
+.info_news {
+    padding-right: 8%;
+}
+
+.info_news input {
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    background-color: #fff;
+    outline: none;
+    padding-left: 20px;
+}
+
+.info_news button {
+    border: none;
+    background-color: #78cffd;
+    color: #F7FCF7;
+    padding: 7px 12px;
+    margin-top: 10px;
+}
+
+.info_nav nav {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info_nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_nav ul li {
+    list-style-type: none;
+}
+
+.info_nav ul li a {
+    color: #F7FCF7;
+}
+
+.info_social {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+.info_social a img {
+    width: 30px;
+}
+
+/* footer section*/
+
+.footer_section {
+    background-color: #181818;
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer_section p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_section a {
+    color: #fff;
+}
+
+/* end footer section*/
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,7 +289,8 @@ label,span{
         border: 2px black solid;
         border-radius: 80px;
     }
-    .member-name{
+
+    .member-name {
         width: 160px;
         text-align: center;
     }
@@ -69,13 +300,17 @@ label,span{
     .member-photo {
         background-repeat: no-repeat;
         background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
         border: 2px black solid;
-        border-radius: 100px;
+        border-radius: 125px;
     }
-    .member-name{
-        width: 200px;
+
+    .member-name {
+        font-size: 20px;
+        color: #181818 !important;
+        width: 250px;
         text-align: center;
     }
+
 }
