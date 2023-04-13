@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Nepal Red cross society",
+        "location" : "Kathmandu",
+        "image" : "assets/images/bloodbank.png",
+        "phone" : "01-1234567"
+    },
+    {
+        "name" : "Nepal Red cross society",
+        "location" : "Biratnagar",
+        "image" : "assets/images/bloodbank.png",
+        "phone" : "021-123456"
+    }
+]

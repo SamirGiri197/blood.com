@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+   <head>
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
@@ -24,42 +23,47 @@
       <link rel="stylesheet" type="text/css" href="static/bootstrap/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="static/styles/style.css">
 
-</head>
+      <script>
+  // Get all event elements
+  const events = document.querySelectorAll('.event');
 
-<body>
-    
+  // Add click event listener to each event
+  events.forEach(event => {
+    event.addEventListener('click', () => {
+      // Toggle the visibility of the event details
+      event.querySelector('.event-details').classList.toggle('show');
+    });
+  });
+</script>
+      
+      <title>Blood | Online Blood Management System</title>
+
+      
+
+   </head>
+   <body>
       <div class="container-fluid d-flex align-items-center justify-content-center">
          <div class="col-12 col-md-12 col-sm-12">
-
             <div class="row">
-                  <!-- logo and slogan -->
-               <div class="d-flex align-items-center col-12 col-md-8 col-sm-12">
-
-                  <div class="col-md-2 col-sm-4">
-                     <a class="navbar-brand" href="/workspace/blood.com"><img src="assets/logos/logo.png" height="80" width="100" alt="Logo"></a>
+               <!-- logo and slogan -->
+               <div class="d-flex align-items-center col-12 col-md-8 col-sm-12 py-2">
+                  <div class="col-md-2 col-sm-2 mt-2 mb-2 px-4">
+                     <a class="navbar-brand" href="/workspace/blood.com"><img src="assets/logos/logo.png" height="80" width="90" alt="Logo"></a>
                   </div>
-
-                  <div class="col-md-6 col-sm-8 text-danger d-flex justify-content-center">
-                     <h1> Blood For Life </h1>  
+                  <div class="col-md-4 col-sm-4 d-flex align-items-start">
+                     <h1>
+                        <span class="slogan-word">Blood</span>
+                        <span class="slogan-word">For</span>
+                        <span class="slogan-word">Life</span>
+                     </h1>  
                   </div>
+                  <div class="col-md-10 col-sm-4">
 
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                     <a role="button" class="btn btn-dark form-control" id="request-blood" href="/workspace/blood.com/request-blood">Request Blood</a>
+                  </div>
                </div>
-
-                  <!-- others -->
-               <div class="d-flex align-items-center justify-content-center col-12 col-md-4 col-sm-12">
-                             
-                     <div class="col-4 col-md-5 col-sm-4 ">
-                        <a role="button" class="btn btn-dark form-control" id="request-blood" href="/workspace/blood.com/request-blood">Request Blood</a>
-                     </div>
-                     <div class="col-4 col-md-5 col-sm-4">
-                        <a role="button" class="btn btn-dark form-control" id="donate-blood" href="/workspace/blood.com/blood-requests">Donate Blood</a>
-                     </div>
-                     <div class="col-4 col-md-2 col-sm-4">
-                       <a role="button" class="btn btn-dark form-control" id="login-btn" href="/workspace/blood.com/user-login">Login</a>
-                     </div>
-
-                </div>
-
             </div>
          </div>
       </div>
@@ -67,29 +71,26 @@
 
       <nav class="navbar navbar-expand-md navbar-light sticky-top" id="navbar">
          <div class="container-fluid">
-            <a class="navbar-brand" href="/workspace/blood.com">
-              <i class="fas fa-home" aria-hidden="true"></i>
-            </a>
 
             <div class="navbar-brand  d-flex align-items-center logo-center-sm d-md-none d-lg-none">
-               <a href="#">
-                  <img src="assets/logos/logo.png" alt="Logo" style="height:40px; width:40px;">
+               <a class="navbar-brand" href="/workspace/blood.com">
+                  <i class="fas fa-home"></i>
                </a>
             </div>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbarSupportedContent">
+               <ul class="navbar-nav  mb-2  mb-lg-0">
+               <li class="nav-item">
+                     <a class="nav-link" href="/workspace/blood.com">Home</a>
+                  </li>
                   <li class="nav-item">
                      <a class="nav-link" href="/workspace/blood.com/blood-requests">Blood Requests</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="/workspace/blood.com/hospitals">Hospitals</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="/workspace/blood.com/blood-banks">Blood Banks</a>
+                     <a class="nav-link" href="/workspace/blood.com/hospitals">Hospitals & Blood Banks</a>
                   </li>
                   <!-- Get Involved DROPDOWN -->
                   <li class="nav-item dropdown">
@@ -104,6 +105,9 @@
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="/workspace/blood.com/about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a role="button" class="btn btn-dark form-control" id="login-btn" href="/workspace/blood.com/user-login"><i class="fas fa-sign-in-alt"></i></a>
                   </li>
                </ul>
             </div>

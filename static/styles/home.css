@@ -24,6 +24,9 @@
     margin-left: 5px;
     margin-right: 5px;
  }
+ .search{
+    display: inline-block;
+ }
 #request-blood:hover{
     background-color: white;
     color: rgb(146, 27, 27) !important;
@@ -108,7 +111,33 @@ label,span{
 .event:hover .event-details {
     display: block;
 }
-
+.event-img img {
+    max-height: 250px; 
+    width: 100%;
+    object-fit: cover;
+  }
+  .event-card {
+    position: relative; /* Set the position of the card to relative */
+    overflow: hidden; /* Hide the overflow of the card */
+  }
+  
+  .event-card:hover .event-header {
+    opacity: 1; /* Show the header on hover */
+  }
+  
+  .event-header {
+    position: absolute; /* Set the position of the header to absolute */
+    bottom: 0; /* Align the header to the bottom of the card */
+    left: 0; /* Align the header to the left of the card */
+    width: 100%; /* Set the width of the header to 100% */
+    padding: 1rem; /* Add some padding to the header */
+    background-color: rgba(0, 0, 0, 0.5); /* Set a semi-transparent background color for the header */
+    color: #fff; /* Set the text color of the header */
+    opacity: 0; /* Hide the header by default */
+    transition: opacity 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  
 .event-details h3,
 .event-details p {
     margin-top: 0;
@@ -314,3 +343,30 @@ label,span{
     }
 
 }
+
+.filter-width {
+    max-width: 300PX !important;
+}
+.input-group-append .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+  .input-group-append .btn i {
+    margin-right: 0;
+    margin-left: -20px;
+    position: relative;
+    z-index: 2;
+  }
+  .form-select {
+    background-image: url("arrow-down-icon.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+  }
+  
+  .form-select::-ms-expand {
+    display: none;
+  }
+  
